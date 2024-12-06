@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs - JobSearch</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/jobs.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <h1 class="logo">JobSearch</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+                <li><a href="employees.html">Employees</a></li>
+                <li><a href="employers.html">Employers</a></li>
+                <li><a href="signin.html" class="btn-secondary">Sign In</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="jobs-page">
+        <section class="jobs-header">
+            <h1>Available Jobs</h1>
+            <div class="filters">
+                <input type="text" placeholder="Search jobs...">
+                <select>
+                    <option value="">All Categories</option>
+                    <option value="tech">Technology</option>
+                    <option value="healthcare">Healthcare</option>
+                    <option value="sales">Sales</option>
+                </select>
+                <button class="btn-primary">Search</button>
+            </div>
+        </section>
+
+        <section class="jobs-grid">
+            <div class="job-card">
+                <h3>Senior Software Engineer</h3>
+                <p class="company">Tech Corp</p>
+                <p class="location">San Francisco, CA</p>
+                <p class="description">We are looking for an experienced software engineer...</p>
+                <a href="job-details.html" class="btn-secondary">View Details</a>
+            </div>
+            <!-- More job cards... -->
+        </section>
+    </main>
+
+    <footer>
+        <!-- Same footer as index.html -->
+    </footer>
+</body>
+</html>
